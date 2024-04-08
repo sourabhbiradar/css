@@ -1,0 +1,55 @@
+
+
+.heart{
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+    top: 20vh;
+}
+
+img{
+    width: 15vw;
+    height:35vh;
+
+    /* animation-name: heart;
+
+    animation-duration: .5s;
+
+    animation-timing-function: ease-in-out;
+
+    animation-delay: 0;
+
+    animation-iteration-count: 20;
+
+    animation-direction: reverse; */
+
+    animation: heart 0.5s ease-in-out 20 alternate;
+}
+
+/* @keyframes heart {
+
+    from{width:15vw ;
+         height :35vh;
+    }
+
+    to{width: 16vw;
+       height: 40vh;
+    }
+} */
+
+@keyframes heart {
+
+    0%{width:15vw ;
+         height :35vh;
+    }
+
+    60%{width: 15.5vw;
+       height: 37vh;
+    }
+
+    80%{width: 17vw;
+       height: 42vh;
+    }
+}

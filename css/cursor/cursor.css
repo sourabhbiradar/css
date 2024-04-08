@@ -1,0 +1,9 @@
+.cursor{
+    margin: 10px;
+    padding: 10px;
+    width: 20svw;
+    border: 2px solid red;
+    cursor: crosshair;
+}
+
+

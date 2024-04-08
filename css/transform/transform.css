@@ -1,0 +1,52 @@
+.container{
+    background-color: aquamarine;
+    height: 40vh;
+}
+
+.box{
+    border: 3px double darkcyan;
+
+    transform: translate(10vw,5vh);
+
+    transform: rotate(0.25turn);
+    /* transform: rotate(30deg); */
+
+    transform-origin:20vw;
+}
+
+.sqr{
+    width: 150px;
+    height: 150px;
+    border: 2px solid salmon;
+
+    /* transform: scaleX(2);
+    transform: scaleY(2); */
+    transform: scale(2,3);
+}
+
+.skew{
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(110, 35, 26);
+    float:right;
+
+    transform: skew(4deg,7deg);
+    /* skewX() , skewY() */
+}
+
+
+
+.multiple{
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(26, 126, 119);
+    position: relative;
+    left: 40%;
+}
+
+.multiple img{
+    width: 200px;
+    height: 200px;
+   
+    transform: translate(3px,40px) rotate(0.06turn) skewY(16deg);
+}

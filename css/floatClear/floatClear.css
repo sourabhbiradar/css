@@ -1,0 +1,19 @@
+.box1{
+   background-color: grey;
+   width: 10vw; 
+   height: 10vh;
+
+   float: right;
+   
+}
+
+.box2{
+    background-color:goldenrod;
+   width: 10vw; 
+   height: 10vh;
+
+   float:right;
+
+   clear: both;
+   
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mrgn1{
+    background-color: grey;
+    margin: 30px;
+    padding: 4px;
+    border: 2px solid yellow;
+}
+
+.mrgn2{
+    background-color: aliceblue;
+    margin: 35px;
+    
+}
+
+.boxSz1{
+    background-color: yellowgreen;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px;
+
+    
+}
+
+.boxSz2{
+    background-color: forestgreen;
+    border: 2px  groove pink;
+    height: 100%;
+    box-sizing: content-box;
+}

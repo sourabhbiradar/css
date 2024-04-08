@@ -1,0 +1,52 @@
+
+.container{
+    background-color: rgb(216, 165, 182);
+    height: 80vh;
+
+display: flex;
+
+flex-direction: row;
+
+flex-wrap: wrap;
+
+justify-content: center;
+
+align-items: center;
+
+/* align-content: center; */
+
+}
+
+.box1{
+background-color: gold;
+width: 15vw;
+height: 15vw;
+
+
+}
+
+.box2{
+    background-color: tomato;
+    width: 15vw;
+    height: 15vw;
+
+    align-self:flex-end ;
+}
+
+.box3{
+    background-color:cornflowerblue;
+    width: 15vw;
+    height: 15vw;
+
+    order:-2;
+}
+    
+    .box4{
+        background-color:navajowhite;
+        width: 15vw;
+        height: 15vw;
+
+        flex-grow: 2;
+
+        /* flex-shrink:1;  ??? */
+    }

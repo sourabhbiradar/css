@@ -1,0 +1,31 @@
+.pEle::after{
+    content: 'pseudo element [ : : ]';
+    color: blueviolet;
+}
+
+li::before{
+    content: 'pseudo element [ : : ]';
+    color: blueviolet;
+}
+
+div::first-letter{
+    text-transform: capitalize;
+    color: rgb(42, 165, 69);
+    font-size: 50px;
+}
+
+.pEle::first-line{
+    letter-spacing: 3px;
+}
+
+::marker{
+    color: hotpink;
+    font-size: 50px;
+}
+
+::selection{
+    background-color: rgb(0, 9, 14);
+    color: rgb(251, 249, 251);
+   
+}
+

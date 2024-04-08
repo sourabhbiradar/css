@@ -1,0 +1,47 @@
+/* .px{
+    font-size: 25px;
+}
+
+.em{
+    /* font-size: 1em; */
+    /* font-size: 2em;
+}
+
+.rem{
+    font-size:3rem ;
+}
+
+.vw{
+    background-color: lemonchiffon;
+    width: 60vw;
+    height: 10vw; 
+}
+
+.vh{
+    background-color:lightsalmon;
+    height: 40vh;
+    width: 25vh;
+}
+
+.prcnt{
+    background-color: bisque;
+    width: 50%;
+    height: 400%;
+
+    font-size: 200%;
+} */
+
+.minmaxW{
+    background-color: red;
+    max-width: 50vw;
+    min-width: 30vw;
+    width:80vw;
+} 
+
+.minmaxH{
+background-color: palegreen;
+max-height: 60vh;
+min-height: 30vh;
+height:10vh;
+
+}

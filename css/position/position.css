@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 5vh;
+    word-spacing: 500%;
+}
+
+li{
+    display: inline;
+}
+
+.container{
+    background-color:wheat;
+    width:40vw ;
+    height: 40vw;
+    /* height: 100vw; 
+    [ pos : fixed ; ] */
+    position: absolute;
+
+    left: 30%;
+    top: 10%;
+}
+
+.text{
+    text-align: center;
+    border: 3px dotted green;
+}
+
+.PosRltv{
+    background-color: indianred;
+    width: 50%;
+    height:50%;
+
+    position: relative;
+    left: 15%;
+    top:5%;
+}
+
+.PosAbs{
+    background-color: rgb(66, 175, 166);
+    width: 30%;
+    height:20%;
+
+    position: absolute;
+    bottom: 5%;
+    left: 60%;
+}
+
+.PosFxd{
+    background-color: rgb(137, 117, 190);
+    width: 180px;
+    height:80px;
+
+    position: fixed;
+}
+
+.PosStky{
+    background-color: rgb(120, 24, 91);
+    width: 180px;
+    height:80px;
+
+    position: sticky;
+    left: 90%;
+}

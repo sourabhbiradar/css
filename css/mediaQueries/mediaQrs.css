@@ -1,0 +1,21 @@
+.container{
+    background-color: red;
+    height: 50vh;
+}
+
+@media screen and (max-width:700px){
+    body{
+        background-color: lightseagreen;
+    }
+    .container{
+        background-color: hotpink;
+
+        color: aquamarine;
+    }
+}
+
+@media only screen and (orientation:portrait){
+    body{
+        background-color: black;
+    }
+}

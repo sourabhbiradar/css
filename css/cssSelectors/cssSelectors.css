@@ -1,0 +1,23 @@
+h1{ 
+    color:mediumslateblue
+}
+
+p{
+    background-color: beige;
+} 
+
+#div,h3{
+    color:rgb(178, 127, 255)
+}
+
+.span,h2{
+    background-color:cadetblue
+}
+
+pre.span{
+    color: red;
+}
+
+*{
+    background-color:rgb(129, 117, 117)
+}

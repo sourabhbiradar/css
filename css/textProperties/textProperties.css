@@ -1,0 +1,24 @@
+.textA{
+    background-color: yellow;
+    height: 150px;
+    width: 500px;
+
+    text-align: right; 
+}
+
+.textD{
+     text-decoration: dotted line-through grey 10px;
+     
+}
+
+.textT{
+    text-transform: capitalize;
+}
+
+.lineH{
+    background-color: lightcyan;
+    width: 400px;
+
+    line-height: 35px;
+}
+

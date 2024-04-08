@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+
+    <style>
+      .boxL{
+        background-color: lightgoldenrodyellow;
+        width: 40vw;
+        height: 30vh;
+        border: 2px solid grey;
+        display: inline-block;
+        
+        overflow:scroll;
+      }
+
+    .boxS{
+        width: 50vw;
+        height: 50vh;
+        background-color: lightseagreen;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow-x:hidden;
+        
+    }
+      
+    </style>
+</head>
+<body>
+    <h1>overflow</h1>
+
+    <div class="boxL">
+        large box
+   
+    <div class=boxS>
+        small box
+        <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni tempora eius aliquam aliquid omnis nisi ex debitis at quod? Iusto cum, id accusantium rerum suscipit vel aliquam ab temporibus expedita dignissimos doloribus amet cumque eius nostrum autem debitis molestias? Ut.
+        
+    </div>
+
+    </div>
+</body>
+</html>

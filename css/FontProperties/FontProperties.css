@@ -1,0 +1,38 @@
+.fS{
+    font-size: 36px;
+}
+
+.fF{
+    font-size: 36px;
+    color: rgb(239, 176, 82);
+
+    font-family: 'Gill Sans';
+}
+
+.gF{
+    font-size: 30px;
+    color: turquoise;
+
+    font-family: 'Special Elite';
+}
+
+.gFi{
+    font-size: 25px;
+    color: rgb(136, 96, 61);
+
+    font-family:Barriecito ;
+}
+
+.fW{
+    font-size: 25px;
+    color: violet;
+
+    font-weight: 900;
+}
+
+.fS{
+    font-size: 25px;
+    color: aqua;
+
+    font-style: oblique 60deg;
+}

@@ -1,0 +1,15 @@
+.boxS{
+    width: 10vw;
+    height: 10vh;
+    border: 1px solid grey;
+
+    box-shadow:9px -8px 20px 3px green;
+}
+
+.textS{
+    font-size: 25px;
+    line-height: 40px;
+
+    text-shadow: -4px 6px 10px firebrick;
+    
+}

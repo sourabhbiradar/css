@@ -1,0 +1,39 @@
+img{
+    width:10vw;
+    transition-property:width ;
+
+    transition-duration: 1s;
+
+    transition-timing-function:ease-in-out; 
+}
+
+img:hover{
+    width: 20vw;
+    
+}
+
+.box{
+    width: 300px;
+    font-size: 30px;
+
+    /* transition-property:font-size;
+
+    transition-duration: .7s;
+
+    transition-timing-function: ease-in;
+
+    transition-delay: 1s; */
+
+    transition:font-size .7s ease-in 1s;
+
+}
+
+.box:hover{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+
+
+
